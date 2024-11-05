@@ -56,6 +56,8 @@ height: auto;
 }
 /*HEADER END*/
 
+
+/*Explore Your Travel Start*/
 .Images{
    width: 100%;
    height: auto;
@@ -71,6 +73,7 @@ height: auto;
     width: 100%;
     height: auto;
     
+    
 }
 
 .Images .img .text{
@@ -79,20 +82,40 @@ height: auto;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    margin-top: 70px;
        
 }
+
+
+.Images .img .text h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.Images .img .text p{
+    text-align: center;
+    font-size: 30px;
+}
+
 
 .Images .img .text .BUTTON{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 10px;
+    padding: 20px;
+    background-color:rgb(236, 241, 241, 0.3);
+    border-radius: 10px;
+    
+    
 }
 
 .Images .img .text .BUTTON .white-button{
     padding: 30px 30px 30px 30px;
-    border: 1px solid white;
+    border: 1px solid rgb(141, 139, 139);
     border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
     
 }
 
@@ -101,6 +124,7 @@ height: auto;
     color: orangered;
     border-radius: 10px;
     background-color: orangered;
+    cursor: pointer;
 
 }
 
@@ -109,4 +133,47 @@ height: auto;
     font-size: 20px;
     
 }
+/*Explore Your Travel End*/
 
+/*Popular ture start*/
+.Our-Popular-Tours{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 350px;
+    gap: 50px;
+}
+
+
+.Our-Popular-Tours .more h1{
+font-size: 60px;
+font-weight: bolder;
+}
+
+
+.Our-Popular-Tours .more h3{
+    font-size: 25px;
+    opacity: .7;
+    font-weight: 500;
+}
+
+.Our-Popular-Tours .more .orang-button{
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 10px;
+    background-color: orangered;
+    cursor: pointer;
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+}
+
+
+.Our-Popular-Tours .pic1{
+    padding-top: 75px;
+}
+
+
+.Our-Popular-Tours .pic1 img{
+    width: 100%;
+    height: 590px;
+}
+/*Popular ture end*/
