@@ -1,0 +1,112 @@
+body{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+/*HEADER START*/
+
+.head{
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+
+.head .header{
+    display: flex;
+}
+
+
+.head .header .Hero{
+    font-size: 50px;
+   font-weight: bold;
+   width: 50%;
+}
+
+
+.head .header .Hero img{
+width: 80px;
+height: auto;
+
+}
+
+
+.clour{
+    color: orangered;
+}
+
+.head .header .nav{
+    text-align: right;
+}
+
+
+.head .header .nav .navbar{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    text-align: right;
+    padding-left: 250px;
+  
+}
+
+.head .header .nav .navbar li{
+    list-style: none;
+    font-size: 30px;
+}
+/*HEADER END*/
+
+.Images{
+   width: 100%;
+   height: auto;
+}
+
+.Images .img{
+    position: relative;
+    height: 400px;
+    
+}
+
+.Images .img img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.Images .img .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+       
+}
+
+.Images .img .text .BUTTON{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+}
+
+.Images .img .text .BUTTON .white-button{
+    padding: 30px 30px 30px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.Images .img .text .BUTTON .orang-button{
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 10px;
+    background-color: orangered;
+
+}
+
+.Images .img .text .BUTTON .orang-button p{
+    color: white;
+    font-size: 20px;
+    
+}
+
