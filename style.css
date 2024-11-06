@@ -278,6 +278,83 @@ font-weight: bolder;
 /*Destination End*/
 
 
+.Choose-Us{
+    padding-top: 100px;
+}
 
+
+.Choose-Us .Why{
+    text-align: center;
+}
+
+
+.Choose-Us .Why h1{
+    font-size: 55px;
+}
+
+.Choose-Us .Why h3{
+    font-size: 25px;
+    opacity: .7;
+    font-weight: 500;
+}
+
+.Choose-Us .hotel{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+
+.Choose-Us .hotel .hotels{
+    border: 1px solid rgb(245, 221, 143);
+    height: 320px;
+    background-color:rgb(252, 244, 230);
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.Choose-Us .hotel .hotels i{
+    font-size: 60px;
+}
+
+
+.Choose-Us .hotel .hotels h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.Choose-Us .hotel .hotels p{
+    font-size: 25px;
+    opacity: .8;
+}
+
+.Choose-Us .hotel .maps{
+    border: 1px solid rgb(116, 213, 243);
+    height: 320px;
+    background-color:rgb(227, 249, 252);
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.Choose-Us .hotel .maps i{
+    font-size: 60px;
+}
+
+.Choose-Us .hotel .maps h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.Choose-Us .hotel .maps p{
+    font-size: 25px;
+    opacity: .8;
+}
 
     
