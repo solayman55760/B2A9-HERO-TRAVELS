@@ -278,8 +278,10 @@ font-weight: bolder;
 /*Destination End*/
 
 
+/*Choose-us start*/
 .Choose-Us{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -303,6 +305,7 @@ font-weight: bolder;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
+    padding-bottom: 30px;
 }
 
 
@@ -358,3 +361,192 @@ font-weight: bolder;
 }
 
     
+.Choose-Us .product-percent{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.Choose-Us .product-percent .percent{
+    border: 1px solid pink;
+    border-radius: 15px;
+    background-color: rgb(252, 238, 241);
+    padding-top: 50px;
+    height: 320px;
+    padding-left: 50px;
+}
+
+.Choose-Us .product-percent .percent i{
+    font-size: 60px;
+}
+
+.Choose-Us .product-percent .percent h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.Choose-Us .product-percent .percent p{
+    font-size: 25px;
+    opacity: .8;
+}
+/*Choose-us End*/
+
+
+/*Deals & Discounts Start*/
+.Deals-Discounts .discount{
+    text-align: center;
+}
+
+
+.Deals-Discounts .discount h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.Deals-Discounts .discount p{
+    font-size: 22px;
+    opacity: .8;
+}
+
+.Deals-Discounts .dil1{
+    padding-top: 30px;
+    position: relative;
+   
+}
+.Deals-Discounts .dil1 img{
+width: 100%;
+}
+
+.Deals-Discounts .dil1 .dil-1{
+    position: absolute;
+    justify-content: right;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    background-color: rgba(243, 239, 239, 0.9);
+    border-radius: 15px;
+    padding: 30px 30px 30px 30px;
+    width: 50%;
+    
+    
+}
+
+.Deals-Discounts .dil1 .dil-1 i{
+    color: orangered;
+    font-size: 30px;
+    padding: 5px;
+   
+}
+
+.Deals-Discounts .dil1 .dil-1 .text-dil{
+    font-size: 25px;
+    
+}
+
+.Deals-Discounts .dil1 .dil-1 h1{
+    font-size: 40px;
+}
+
+.Deals-Discounts .dil1 .dil-1 p{
+    font-size: 25px;
+    opacity: .7;
+}
+
+.Deals-Discounts .dil1 .dil-1 h2{
+    font-size: 30px;
+    color: orangered;
+}
+
+.Deals-Discounts .dil1 .dil-1 .orang-button{
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 10px;
+    background-color: orangered;
+    cursor: pointer;
+    padding: 20px 50px 20px 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.Deals-Discounts .dil2{
+    padding-top: 30px;
+    position: relative;
+   
+}
+.Deals-Discounts .dil2 img{
+    width: 100%;
+}
+
+.Deals-Discounts .dil2 .dil-2{
+    position: absolute;
+    justify-content: left;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    background-color: rgba(243, 239, 239, 0.9);
+    border-radius: 15px;
+    padding: 30px 30px 30px 30px;
+    width: 50%;
+    
+    
+}
+
+.Deals-Discounts .dil2 .dil-2 i{
+    color: orangered;
+    font-size: 30px;
+    padding: 5px;
+   
+}
+
+.Deals-Discounts .dil2 .dil-2 .text-dil{
+    font-size: 25px;
+    
+}
+
+.Deals-Discounts .dil2 .dil-2 h1{
+    font-size: 40px;
+}
+
+.Deals-Discounts .dil2 .dil-2 p{
+    font-size: 25px;
+    opacity: .7;
+}
+
+.Deals-Discounts .dil2 .dil-2 h2{
+    font-size: 30px;
+    color: orangered;
+}
+
+.Deals-Discounts .dil2 .dil-2 .orang-button{
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 10px;
+    background-color: orangered;
+    cursor: pointer;
+    padding: 20px 50px 20px 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.Deals-Discounts .Packages{
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.Deals-Discounts .Packages .orang-button{
+    padding: 20px 30px 20px 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orangered;
+    background-color: orangered;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+/*Deals & Discounts End*/
