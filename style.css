@@ -605,3 +605,93 @@ width: 100%;
 }
 
 /*Perfect Place End*/
+
+
+/*Newslater-section start*/
+.News{
+    padding-top: 100px;
+}
+
+.News .newslater{
+    display: flex;
+    gap: 30px;
+}
+
+.News .newslater .information{
+    width: 40%;
+    border:2px solid orangered ;
+    border-radius: 15px;
+    padding:10px 40px;
+    height: 500px;
+}
+
+.News .newslater .information h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.News .newslater .information p{
+    font-size: 25px;
+    opacity: .7;
+}
+
+
+.News .newslater .information input{
+    padding: 10px 130px;
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+}
+
+.News .newslater .information .Subscribe{
+    padding:20px 245px;
+    font-size: 30px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.News .newslater .travel-com{
+    width: 60%;
+    position: relative;
+}
+
+.News .newslater .travel-com img{
+    width: 100%;
+    
+}
+
+.News .newslater .travel-com .travel-information h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.News .newslater .travel-com .travel-information h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.News .newslater .travel-com .travel-information{
+    position: absolute;
+    justify-content: right;
+    bottom: 2%;
+    left: 70%;
+    color: white;
+    transform: translate(-50%, -50%) rotate(-20deg);
+    border: 1px solid orangered;
+    background-color: orangered;
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+    width: 50%;
+    height:100px;
+    line-height: 10px;
+}
+/*Newslater-section End*/
