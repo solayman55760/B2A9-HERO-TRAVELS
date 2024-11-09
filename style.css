@@ -1,14 +1,16 @@
 body{
-    padding-left: 150px;
-    padding-right: 150px;
     padding-top: 50px;
+    overflow-x: hidden;
+   
 }
 
 /*HEADER START*/
 
 .head{
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 50px;
-    width: 100%;
+    width: 84%;
     height: auto;
 }
 
@@ -21,12 +23,12 @@ body{
 .head .header .Hero{
     font-size: 50px;
    font-weight: bold;
-   width: 50%;
+   width: 100%;
 }
 
 
 .head .header .Hero img{
-width: 80px;
+width: 84px;
 height: auto;
 
 }
@@ -59,11 +61,14 @@ height: auto;
 
 /*Explore Your Travel Start*/
 .Images{
-   width: 100%;
-   height: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+    height: auto;
 }
 
 .Images .img{
+    width: 84%;
     position: relative;
     height: 400px;
     
@@ -137,6 +142,8 @@ height: auto;
 
 /*Popular ture start*/
 .Our-Popular-Tours{
+    padding-left: 150px;
+    padding-right: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 350px;
@@ -182,6 +189,8 @@ font-weight: bolder;
 /*Destination Start*/
 .Destination{
     padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 
@@ -280,6 +289,8 @@ font-weight: bolder;
 
 /*Choose-us start*/
 .Choose-Us{
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -393,6 +404,11 @@ font-weight: bolder;
 
 
 /*Deals & Discounts Start*/
+.Deals-Discounts{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .Deals-Discounts .discount{
     text-align: center;
 }
@@ -554,8 +570,11 @@ width: 100%;
 
 /*Perfect Place Start*/
 .Perfect-Place{
-    width: 100%;
+    width: 84%;
     padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    overflow: visible;
 }
 
 .Perfect-Place .vedio-section{
@@ -610,6 +629,9 @@ width: 100%;
 /*Newslater-section start*/
 .News{
     padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
 }
 
 .News .newslater{
@@ -695,3 +717,64 @@ width: 100%;
     line-height: 10px;
 }
 /*Newslater-section End*/
+
+
+.footer{
+    width: 100%;
+    padding-top: 100px;
+    background-color: rgb(245, 243, 243);
+    text-align: center;
+    height: 500px;
+}
+
+
+.footer .img-aria{
+    display: flex;
+    gap: 15px; 
+    text-align:center ;
+     
+}
+
+
+.footer .img-aria .img-icon{
+    width: 45%;
+    text-align:right;
+    padding-top: 35px;
+}
+
+.footer .img-aria .img-aria-text{
+    font-size: 30px;
+    text-align: left;  
+}
+
+
+.footer .img-aria .img-aria-text .color-orange{
+    color: orangered;
+}
+
+
+.footer .lorem-text{
+    font-size: 25px;
+    opacity: .8;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.footer .lorem-text .fontawsome i{ 
+    margin-right: 30px;
+   font-size: 30px;
+   cursor: pointer;
+   
+}
+
+.footer .lorem-text .fontawsome :hover{
+    color: orangered;
+}
+
+
+.footer .lorem-text h4{
+    opacity: .8;
+}
+
+
