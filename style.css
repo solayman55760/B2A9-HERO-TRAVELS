@@ -1,6 +1,9 @@
+
+
 body{
     padding-top: 50px;
     overflow-x: hidden;
+    font-family:Arial, sans-serif;
    
 }
 
@@ -719,6 +722,7 @@ width: 100%;
 /*Newslater-section End*/
 
 
+/*Footer start*/
 .footer{
     width: 100%;
     padding-top: 100px;
@@ -776,5 +780,155 @@ width: 100%;
 .footer .lorem-text h4{
     opacity: .8;
 }
+/*Footer End*/
 
 
+/* Default Styles (Desktop) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav .navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.Images .text {
+    text-align: left;
+    padding: 40px;
+}
+
+/* More specific mobile styling */
+@media (max-width: 768px) {
+    /* Header Section */
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav .navbar li {
+        padding: 10px;
+    }
+
+    /* Hero Section (Text and Image) */
+    .Hero img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Images Section */
+    .Images .text {
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* Popular Tours */
+    .Our-Popular-Tours .more {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .Our-Popular-Tours .pic1 {
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+    }
+
+    /* Destination Section */
+    .Destination .photofame1, .Destination .photofame2, .Destination .photofame3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Destination .imges1, .Destination .imges2, .Destination .imges3 {
+        flex: 1 1 45%; /* Ensure images take up equal space */
+        margin: 10px;
+        position: relative;
+    }
+
+    .Destination img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Choose Us Section */
+    .Choose-Us .hotel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    /* Deals and Discounts Section */
+    .Deals-Discounts .dil1, .Deals-Discounts .dil2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Deals-Discounts img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Video Section */
+    .Perfect-Place .vedio-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Perfect-Place .video {
+        width: 100%;
+    }
+
+    /* Footer Section */
+    .footer .img-aria {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .img-aria-text {
+        text-align: center;
+    }
+
+    .footer .lorem-text {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Form inputs and buttons */
+    input[type="text"], input[type="email"], button {
+        width: 90%;
+        max-width: 400px;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}
